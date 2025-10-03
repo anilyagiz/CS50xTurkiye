@@ -9,10 +9,10 @@ export const keys = () =>
       NEXT_RUNTIME: z.enum(["nodejs", "edge"]).optional(),
     },
     client: {
-      NEXT_PUBLIC_VERSION: z.string(),
-      NEXT_PUBLIC_APP_URL: z.url(),
-      NEXT_PUBLIC_API_URL: z.url().optional(),
-      NEXT_PUBLIC_MCP_URL: z.url(),
+      NEXT_PUBLIC_VERSION: z.string().default("1.0.0"),
+      NEXT_PUBLIC_APP_URL: z.string().default("https://cs50xturkiye.com"),
+      NEXT_PUBLIC_API_URL: z.string().optional(),
+      NEXT_PUBLIC_MCP_URL: z.string().optional(),
     },
     runtimeEnv: {
       ANALYZE: process.env.ANALYZE,

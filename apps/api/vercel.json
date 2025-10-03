@@ -1,3 +1,9 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json"
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "build": {
+    "env": {
+      "NEXT_PUBLIC_VERSION": "1.0.0",
+      "NEXT_PUBLIC_APP_URL": "https://cs50xturkiye.com"
+    }
+  }
 }
