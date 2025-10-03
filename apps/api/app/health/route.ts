@@ -2,6 +2,8 @@ const UP_TIME_SECONDS_PER_HOUR = 3600;
 const UP_TIME_SECONDS_PER_MINUTE = 60;
 const MEMORY_USAGE_FACTOR = 1024;
 
+export const dynamic = 'force-static';
+
 export function GET() {
   const uptime = process.uptime();
   const uptimeFormatted = `${Math.floor(uptime / UP_TIME_SECONDS_PER_HOUR)}h ${Math.floor((uptime % UP_TIME_SECONDS_PER_HOUR) / UP_TIME_SECONDS_PER_MINUTE)}m ${Math.floor(uptime % UP_TIME_SECONDS_PER_MINUTE)}s`;

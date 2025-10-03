@@ -1,3 +1,5 @@
+export const dynamic = 'force-static';
+
 export function GET() {
   const terminalOutput = `❤️ CS50xTürkiye API Server ❤️
 

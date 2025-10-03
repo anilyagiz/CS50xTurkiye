@@ -6,6 +6,8 @@ import {
 import { routing } from "@repo/internationalization/src/routing";
 import { NextResponse } from "next/server";
 
+export const dynamic = 'force-static';
+
 export function generateStaticParams() {
   // Top level directories in contents
   const topDirs = getFolderChildNames(".");
