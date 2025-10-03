@@ -1,0 +1,41 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.2.4/schema.json",
+  "extends": ["ultracite"],
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "double",
+      "jsxQuoteStyle": "double"
+    }
+  },
+  "linter": {
+    "rules": {
+      "complexity": {
+        "noExcessiveCognitiveComplexity": {
+          "level": "warn",
+          "options": {
+            "maxAllowedComplexity": 30
+          }
+        }
+      },
+      "suspicious": {
+        "noUnknownAtRules": "off"
+      },
+      "performance": {
+        "noNamespaceImport": "off",
+        "noBarrelFile": "off"
+      },
+      "style": {
+        "useFilenamingConvention": "off",
+        "useNamingConvention": "off"
+      }
+    }
+  },
+  "files": {
+    "includes": [
+      "**/*",
+      "!packages/contents/_data/quran.ts",
+      "!packages/backend/convex/_generated/**/*",
+      "!packages/backend/convex/betterAuth/_generated/**/*"
+    ]
+  }
+}

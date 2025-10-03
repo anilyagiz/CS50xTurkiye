@@ -1,0 +1,138 @@
+"use client";
+
+import {
+  Avatar,
+  AvatarFallback,
+  AvatarImage,
+} from "@repo/design-system/components/ui/avatar";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuGroup,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@repo/design-system/components/ui/dropdown-menu";
+import {
+  SidebarMenuButton,
+  SidebarMenuItem,
+  useSidebar,
+} from "@repo/design-system/components/ui/sidebar";
+import { useRouter } from "@repo/internationalization/src/navigation";
+import {
+  EllipsisVerticalIcon,
+  LogInIcon,
+  LogOutIcon,
+  UserIcon,
+} from "lucide-react";
+import { useTranslations } from "next-intl";
+import { useEffect } from "react";
+import { authClient } from "@/lib/auth/client";
+import { getInitialName } from "@/lib/utils/helper";
+
+// Mock user data when Convex is not available
+const MOCK_USER = {
+  name: "Demo User",
+  email: "demo@example.com",
+  image: null,
+};
+
+const prefetchLinks = ["/settings", "/auth"] as const;
+
+export function NavUser() {
+  const t = useTranslations("Auth");
+
+  const router = useRouter();
+  // Use mock user data when Convex is not available
+  const user = MOCK_USER;
+
+  const { isMobile } = useSidebar();
+
+  useEffect(() => {
+    // prefetch all the links
+    for (const link of prefetchLinks) {
+      router.prefetch(link);
+    }
+  });
+
+  if (!user) {
+    return (
+      <SidebarMenuItem>
+        <SidebarMenuButton onClick={() => router.push("/auth")}>
+          <LogInIcon />
+          {t("login")}
+        </SidebarMenuButton>
+      </SidebarMenuItem>
+    );
+  }
+
+  const handleSignOut = async () => {
+    await authClient.signOut({
+      fetchOptions: {
+        onSuccess: () => {
+          router.replace("/");
+        },
+      },
+    });
+  };
+
+  return (
+    <SidebarMenuItem>
+      <DropdownMenu>
+        <DropdownMenuTrigger asChild>
+          <SidebarMenuButton className="data-[state=open]:bg-sidebar-accent data-[state=open]:text-sidebar-accent-foreground">
+            <Avatar className="size-6 rounded-lg">
+              <AvatarImage alt={user.name} src={user.image ?? ""} />
+              <AvatarFallback className="rounded-lg text-xs">
+                {getInitialName(user.name)}
+              </AvatarFallback>
+            </Avatar>
+            <div className="grid flex-1 text-left text-sm leading-tight">
+              <span className="truncate">{user.name}</span>
+            </div>
+            <EllipsisVerticalIcon className="ml-auto size-4" />
+          </SidebarMenuButton>
+        </DropdownMenuTrigger>
+        <DropdownMenuContent
+          align="end"
+          className="w-(--radix-dropdown-menu-trigger-width) min-w-56 rounded-lg"
+          side={isMobile ? "bottom" : "right"}
+          sideOffset={4}
+        >
+          <DropdownMenuLabel className="p-0 font-normal">
+            <div className="flex items-center gap-2 px-1 py-1.5 text-left text-sm">
+              <Avatar className="size-8 rounded-lg">
+                <AvatarImage alt={user.name} src={user.image ?? ""} />
+                <AvatarFallback className="rounded-lg">
+                  {getInitialName(user.name)}
+                </AvatarFallback>
+              </Avatar>
+              <div className="grid flex-1 text-left text-sm leading-tight">
+                <span className="truncate font-medium">{user.name}</span>
+                <span className="truncate text-muted-foreground text-xs">
+                  {user.email}
+                </span>
+              </div>
+            </div>
+          </DropdownMenuLabel>
+          <DropdownMenuSeparator />
+          <DropdownMenuGroup>
+            <DropdownMenuItem
+              className="cursor-pointer"
+              onSelect={() => router.push("/settings")}
+            >
+              <UserIcon />
+              {t("account")}
+            </DropdownMenuItem>
+          </DropdownMenuGroup>
+          <DropdownMenuSeparator />
+          <DropdownMenuItem className="cursor-pointer" onSelect={handleSignOut}>
+            <LogOutIcon />
+            {t("logout")}
+          </DropdownMenuItem>
+        </DropdownMenuContent>
+      </DropdownMenu>
+    </SidebarMenuItem>
+  );
+}
