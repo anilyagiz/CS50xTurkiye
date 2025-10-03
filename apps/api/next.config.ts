@@ -2,7 +2,14 @@ import { withAnalyzer, withMDX } from "@repo/next-config";
 import type { NextConfig } from "next";
 import { env } from "@/env";
 
-let nextConfig: NextConfig = {};
+let nextConfig: NextConfig = {
+  distDir: 'out',
+  output: 'export',
+  trailingSlash: true,
+  images: {
+    unoptimized: true
+  }
+};
 
 if (env.ANALYZE === "true") {
   nextConfig = withAnalyzer(nextConfig);
