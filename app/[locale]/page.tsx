@@ -32,31 +32,31 @@ export default async function Page({ params }: Props) {
         breadcrumbItems={[
           {
             "@type": "ListItem",
-            "@id": `https://nakafa.com/${locale}`,
+            "@id": `https://cs50xturkiye.com/${locale}`,
             position: 1,
             name: tHome("title"),
-            item: `https://nakafa.com/${locale}`,
+            item: `https://cs50xturkiye.com/${locale}`,
           },
           {
             "@type": "ListItem",
-            "@id": `https://nakafa.com/${locale}/subject`,
+            "@id": `https://cs50xturkiye.com/${locale}/subject`,
             position: 2,
             name: tCommon("subject"),
-            item: `https://nakafa.com/${locale}/subject`,
+            item: `https://cs50xturkiye.com/${locale}/subject`,
           },
           {
             "@type": "ListItem",
-            "@id": `https://nakafa.com/${locale}/articles`,
+            "@id": `https://cs50xturkiye.com/${locale}/articles`,
             position: 3,
             name: tCommon("articles"),
-            item: `https://nakafa.com/${locale}/articles`,
+            item: `https://cs50xturkiye.com/${locale}/articles`,
           },
           {
             "@type": "ListItem",
-            "@id": `https://nakafa.com/${locale}/contributor`,
+            "@id": `https://cs50xturkiye.com/${locale}/contributor`,
             position: 4,
             name: tCommon("contributor"),
-            item: `https://nakafa.com/${locale}/contributor`,
+            item: `https://cs50xturkiye.com/${locale}/contributor`,
           },
         ]}
         locale={locale}
@@ -76,7 +76,7 @@ export default async function Page({ params }: Props) {
               <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
                 <a
                   className={cn(buttonVariants({ variant: "outline" }))}
-                  href="https://github.com/nakafaai/nakafa.com"
+                  href="https://github.com/anilyagiz/CS50xTurkiye"
                   rel="noopener noreferrer"
                   target="_blank"
                   title={tHome("contribute")}
@@ -86,7 +86,7 @@ export default async function Page({ params }: Props) {
                 </a>
                 <a
                   className={cn(buttonVariants({ variant: "outline" }))}
-                  href="https://www.youtube.com/@nakafaa"
+                  href="https://www.youtube.com/@cs50xturkiye"
                   rel="noopener noreferrer"
                   target="_blank"
                   title={tHome("videos")}

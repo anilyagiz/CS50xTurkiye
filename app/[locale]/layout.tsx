@@ -38,43 +38,43 @@ export async function generateMetadata({
       default: t("title"),
     },
     description: t("description"),
-    applicationName: "Nakafa",
+    applicationName: "CS50xTurkiye",
     authors: [
       {
-        name: "Nabil Akbarazzima Fatih",
-        url: "https://x.com/NabilFatih_",
+        name: "Muhammet Anil Yagiz",
+        url: "https://github.com/anilyagiz",
       },
     ],
-    creator: "Nabil Akbarazzima Fatih",
-    publisher: "PT. Nakafa Tekno Kreatif",
+    creator: "Muhammet Anil Yagiz",
+    publisher: "CS50xTurkiye",
     referrer: "origin-when-cross-origin",
-    metadataBase: new URL("https://nakafa.com"),
+    metadataBase: new URL("https://cs50xturkiye.com"),
     classification: t("classification"),
     generator: "Next.js",
     alternates: {
-      canonical: "https://nakafa.com",
+      canonical: "https://cs50xturkiye.com",
       languages: {
-        id: "https://nakafa.com/id",
-        en: "https://nakafa.com/en",
+        tr: "https://cs50xturkiye.com/tr",
+        en: "https://cs50xturkiye.com/en",
       },
     },
     icons: {
       icon: [
         { url: "/favicon.ico", sizes: "16x16", type: "image/x-icon" },
         { url: "/logo.svg", type: "image/svg+xml" },
-        new URL("/favicon.ico", "https://nakafa.com"),
+        new URL("/favicon.ico", "https://cs50xturkiye.com"),
       ],
       shortcut: [
         { url: "/favicon.ico" },
-        new URL("/favicon.ico", "https://nakafa.com"),
+        new URL("/favicon.ico", "https://cs50xturkiye.com"),
       ],
-      apple: [{ url: "/logo.svg" }, new URL("/logo.svg", "https://nakafa.com")],
+      apple: [{ url: "/logo.svg" }, new URL("/logo.svg", "https://cs50xturkiye.com")],
       other: [
         { rel: "manifest", url: "/manifest.webmanifest" },
         { rel: "apple-touch-icon", url: "/logo.svg" },
       ],
     },
-    manifest: "https://nakafa.com/manifest.webmanifest",
+    manifest: "https://cs50xturkiye.com/manifest.webmanifest",
     robots: {
       index: true,
       follow: true,
@@ -104,8 +104,8 @@ export async function generateMetadata({
           height: 630,
         },
       ],
-      creator: "@nabilfatih_",
-      site: "@nabilfatih_",
+      creator: "@cs50xturkiye",
+      site: "@cs50xturkiye",
     },
     appleWebApp: {
       capable: true,
@@ -115,8 +115,8 @@ export async function generateMetadata({
     openGraph: {
       title: t("title"),
       description: t("description"),
-      url: "https://nakafa.com",
-      siteName: "Nakafa",
+      url: "https://cs50xturkiye.com",
+      siteName: "CS50xTurkiye",
       locale,
       type: "website",
       images: [

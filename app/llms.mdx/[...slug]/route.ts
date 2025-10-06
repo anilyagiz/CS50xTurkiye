@@ -40,7 +40,7 @@ export async function GET(
   const urlPath = `/${locale}/${cleanSlug}`;
   const githubSourcePath = `/packages/contents/${cleanSlug}/${locale}.mdx`;
 
-  scanned.push("# Nakafa Framework: LLM");
+  scanned.push("# CS50xTurkiye: LLM");
   scanned.push("");
   scanned.push(`URL: ${urlPath}`);
   scanned.push(`Source: ${getRawGithubUrl(githubSourcePath)}`);

@@ -55,7 +55,7 @@ export default function ErrorPage({
             </Button>
             <a
               className={cn(buttonVariants({ variant: "secondary" }))}
-              href="https://github.com/nakafaai/nakafa.com/issues"
+              href="https://github.com/anilyagiz/CS50xTurkiye/issues"
               rel="noopener noreferrer"
               target="_blank"
               title="Report"
