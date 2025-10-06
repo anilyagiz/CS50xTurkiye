@@ -7,8 +7,8 @@
     "typecheck": "tsc --noEmit --emitDeclarationOnly false"
   },
   "devDependencies": {
-    "@repo/typescript-config": "workspace:*",
     "@next/mdx": "^15.5.3",
+    "@repo/typescript-config": "workspace:*",
     "next": "15.5.3"
   },
   "dependencies": {
