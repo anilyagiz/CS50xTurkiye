@@ -1,6 +1,9 @@
 {
   "name": "www",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "dev": "next dev -p 3000 --turbopack",
     "build": "next build",
