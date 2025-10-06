@@ -8,7 +8,10 @@
       "Bash(bun run:*)",
       "Bash(npm run build:*)",
       "Bash(git rm:*)",
-      "Bash(git filter-branch:*)"
+      "Bash(git filter-branch:*)",
+      "Bash(bun install:*)",
+      "Bash(npm install:*)",
+      "Bash(yarn install:*)"
     ],
     "deny": [],
     "ask": []
