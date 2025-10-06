@@ -57,7 +57,7 @@ export async function generateMetadata({
     url: path,
     images: [image],
     type: "book",
-    siteName: "Nakafa",
+    siteName: "CS50xTurkiye",
     locale,
   };
 

@@ -119,10 +119,10 @@ export default async function Page({ params }: Props) {
       <BreadcrumbJsonLd
         breadcrumbItems={materials.map((mat, index) => ({
           "@type": "ListItem",
-          "@id": `https://nakafa.com/${locale}${mat.href}`,
+          "@id": `https://cs50xturkiye.com/${locale}${mat.href}`,
           position: index + 1,
           name: mat.title,
-          item: `https://nakafa.com/${locale}${mat.href}`,
+          item: `https://cs50xturkiye.com/${locale}${mat.href}`,
         }))}
         locale={locale}
       />

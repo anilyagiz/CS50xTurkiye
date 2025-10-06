@@ -224,7 +224,7 @@ export function generate(props: GenerateProps): ReactElement {
                 fontFamily: "system-ui, -apple-system, sans-serif",
               }}
             >
-              Nakafa
+              CS50xTurkiye
             </p>
           </div>
 

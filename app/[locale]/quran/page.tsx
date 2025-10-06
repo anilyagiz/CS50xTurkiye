@@ -46,7 +46,7 @@ export async function generateMetadata({
     url: path,
     images: [image],
     type: "book",
-    siteName: "Nakafa",
+    siteName: "CS50xTurkiye",
     locale,
   };
 
@@ -72,10 +72,10 @@ export default async function Page({ params }: Props) {
       <BreadcrumbJsonLd
         breadcrumbItems={surahs.map((surah, index) => ({
           "@type": "ListItem",
-          "@id": `https://nakafa.com/${locale}/quran/${surah.number}`,
+          "@id": `https://cs50xturkiye.com/${locale}/quran/${surah.number}`,
           position: index + 1,
           name: getSurahName({ locale, name: surah.name }),
-          item: `https://nakafa.com/${locale}/quran/${surah.number}`,
+          item: `https://cs50xturkiye.com/${locale}/quran/${surah.number}`,
         }))}
         locale={locale}
       />

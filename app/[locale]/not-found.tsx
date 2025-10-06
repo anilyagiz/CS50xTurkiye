@@ -29,7 +29,7 @@ export default function NotFound() {
           <div className="mx-auto w-fit">
             <a
               className={cn(buttonVariants({ variant: "secondary" }))}
-              href="https://github.com/nakafaai/nakafa.com"
+              href="https://github.com/anilyagiz/CS50xTurkiye"
               rel="noopener noreferrer"
               target="_blank"
               title={t("contribute-button")}
