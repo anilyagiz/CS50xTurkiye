@@ -1,8 +1,8 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "installCommand": "bun install",
-  "buildCommand": "cd apps/www && bun run build",
-  "outputDirectory": "apps/www/.next",
+  "buildCommand": "bun run build",
+  "outputDirectory": ".next",
   "build": {
     "env": {
       "NEXT_PUBLIC_VERSION": "1.0.0",
