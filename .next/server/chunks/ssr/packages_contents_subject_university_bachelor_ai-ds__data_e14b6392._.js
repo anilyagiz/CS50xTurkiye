@@ -1,0 +1,1006 @@
+module.exports = [
+"[project]/packages/contents/subject/university/bachelor/ai-ds/_data/index.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "BASE_PATH",
+    ()=>BASE_PATH
+]);
+const BASE_PATH = "/subject/university/bachelor/ai-ds";
+}),
+"[project]/packages/contents/subject/university/bachelor/ai-ds/_data/id-material.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/packages/contents/subject/university/bachelor/ai-ds/_data/index.ts [app-rsc] (ecmascript)");
+;
+const idMaterials = [
+    {
+        title: "Metode Linear AI",
+        description: "Tulang punggung matematika yang mengubah pola data menjadi prediksi cerdas.",
+        href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods`,
+        items: [
+            {
+                title: "Definisi Determinan",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/determinant`
+            },
+            {
+                title: "Perhitungan Determinan",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/determinant-calculation`
+            },
+            {
+                title: "Teorema pengembangan Laplace",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/laplace-expansion`
+            },
+            {
+                title: "Aturan Cramer",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/cramer-rule`
+            },
+            {
+                title: "Ruang Vektor Kompleks",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/complex-vector-space`
+            },
+            {
+                title: "Matriks Kompleks",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/complex-matrix`
+            },
+            {
+                title: "Nilai Eigen, Vektor Eigen, dan Ruang Eigen",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/eigenvalue-eigenvector-eigenspace`
+            },
+            {
+                title: "Karakteristik Polinomial",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/characteristic-polynomial`
+            },
+            {
+                title: "Nilai Eigen dari Matriks Diagonal dan Segitiga",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/eigenvalue-diagonal-matrix`
+            },
+            {
+                title: "Matriks Ortogonal dan Uniter",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/orthogonal-unitary-matrix`
+            },
+            {
+                title: "Matriks simetris dan Hermitian",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/symmetric-hermitian-matrix`
+            },
+            {
+                title: "Matriks Definit Positif",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/positive-definite-matrix`
+            },
+            {
+                title: "Produk Skalar",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/scalar-product`
+            },
+            {
+                title: "Kondisi Matriks",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/matrix-condition`
+            },
+            {
+                title: "LU Dekomposisi",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/lu-decomposition`
+            },
+            {
+                title: "Cholesky Dekomposisi",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/cholesky-decomposition`
+            },
+            {
+                title: "QR Dekomposisi",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/qr-decomposition`
+            },
+            {
+                title: "Linear Model",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/linear-model`
+            },
+            {
+                title: "Sistem Persamaan Linear",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/system-linear-equation`
+            },
+            {
+                title: "Masalah Keseimbangan Linear",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/linear-equilibrium-problem`
+            },
+            {
+                title: "Sistem Persamaan Normal",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/normal-equation`
+            },
+            {
+                title: "Solusi Sistem Persamaan Normal",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/normal-equation-solution`
+            },
+            {
+                title: "Kemampuan Identifikasi dan Pemeringkatan",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/identifiability-ranking`
+            },
+            {
+                title: "Regularisasi",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/regularization`
+            },
+            {
+                title: "Analisis Statistik",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/statistical-analysis`
+            },
+            {
+                title: "Perkiraan Terbaik dalam Fungsi dan Ruang Polinomial",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/approximation-function-polynomial`
+            },
+            {
+                title: "Proyeksi Ortogonal",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/orthogonal-projection`
+            },
+            {
+                title: "Polinomial Ortogonal",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/orthogonal-polynomials`
+            },
+            {
+                title: "Kesamaan Matriks",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/matrix-similarity`
+            },
+            {
+                title: "Diagonalisasi Matriks",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/diagonalization-matrix`
+            },
+            {
+                title: "Prosedur Dasar untuk Diagonalisasi",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/diagonalization-procedure`
+            },
+            {
+                title: "Teorema Spektral",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/spectral-theorem`
+            },
+            {
+                title: "Teorema Spektral untuk Matriks Kompleks",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/spectral-complex-matrix`
+            },
+            {
+                title: "Teorema Spektral untuk Matriks Nyata",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/spectral-real-matrix`
+            },
+            {
+                title: "Transformasi Sumbu Nyata",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/real-axis-transformation`
+            },
+            {
+                title: "Analisis Komponen Utama",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/principal-component-analysis`
+            },
+            {
+                title: "Trigonalisasi dan Bentuk Normal Jordan",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/jordan-normal-form`
+            },
+            {
+                title: "Perhitungan Numerik dari Nilai Eigen",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/numerical-eigenvalue-calculation`
+            },
+            {
+                title: "Perhitungan Nilai Eigen Individu",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/individual-eigenvalue-calculation`
+            },
+            {
+                title: "Perhitungan Semua Nilai Eigen",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/linear-methods/all-eigenvalues-calculation`
+            }
+        ]
+    },
+    {
+        title: "Pemrograman AI",
+        description: "Mengkode kecerdasan yang mengajarkan mesin berpikir dan memecahkan masalah kompleks.",
+        href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/ai-programming`,
+        items: [
+            {
+                title: "Markdown dan Command Line Interfaces",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/ai-programming/markdown-cli`
+            },
+            {
+                title: "Step Pertama di Python",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/ai-programming/python-step-1`
+            },
+            {
+                title: "Semuanya adalah Objek di Python",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/ai-programming/everything-object-python`
+            },
+            {
+                title: "Numbers",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/ai-programming/numbers`
+            },
+            {
+                title: "Operator Aritmatika",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/ai-programming/arithmetic-operator`
+            },
+            {
+                title: "Atribut dan Metode Bilangan",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/ai-programming/number-attribute-method`
+            },
+            {
+                title: "Fungsi Matematika",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/ai-programming/math-function`
+            },
+            {
+                title: "Variabel",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/ai-programming/variable`
+            },
+            {
+                title: "Perbandingan dan Logika",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/ai-programming/comparison-logic`
+            },
+            {
+                title: "Objek String",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/ai-programming/string-object`
+            },
+            {
+                title: "Escape Sequence",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/ai-programming/escape-sequence`
+            },
+            {
+                title: "Indexing dan Slicing",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/ai-programming/indexing-slicing`
+            },
+            {
+                title: "Metode String",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/ai-programming/string-method`
+            },
+            {
+                title: "Fungsi Print",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/ai-programming/print-function`
+            },
+            {
+                title: "Pemformatan String",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/ai-programming/string-formatting`
+            },
+            {
+                title: "Container",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/ai-programming/container`
+            },
+            {
+                title: "Immutable, Mutable, dan Identity",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/ai-programming/immutable-mutable-identity`
+            },
+            {
+                title: "Iterable",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/ai-programming/iterable`
+            },
+            {
+                title: "Control Flow",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/ai-programming/control-flow`
+            },
+            {
+                title: "File Input dan Output",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/ai-programming/file-input-output`
+            },
+            {
+                title: "Dictionary",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/ai-programming/dictionary`
+            },
+            {
+                title: "Fungsi",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/ai-programming/function`
+            },
+            {
+                title: "Membuat Array dengan NumPy",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/ai-programming/array-numpy`
+            },
+            {
+                title: "Atribut dan Tipe Data dengan NumPy",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/ai-programming/attribute-data-type-numpy`
+            },
+            {
+                title: "Indexing dan Slicing dengan NumPy",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/ai-programming/indexing-slicing-numpy`
+            },
+            {
+                title: "Operasi pada Array dengan NumPy",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/ai-programming/array-operation-numpy`
+            },
+            {
+                title: "Syntactic Sugar",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/ai-programming/syntactic-sugar`
+            }
+        ]
+    },
+    {
+        title: "Neural Networks",
+        description: "Otak digital yang meniru neuron manusia untuk mengenali pola dan membuat keputusan.",
+        href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks`,
+        items: [
+            {
+                title: "Masalah dari Supervised Learning",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/problem-supervised-learning`
+            },
+            {
+                title: "Jenis-jenis Supervised Learning",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/type-supervised-learning`
+            },
+            {
+                title: "Regresi Linear",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/linear-regression`
+            },
+            {
+                title: "Ruang Fungsi",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/function-space`
+            },
+            {
+                title: "Fungsi Kerugian",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/loss-function`
+            },
+            {
+                title: "Persamaan Normal",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/normal-equation`
+            },
+            {
+                title: "Fungsi Dasar Linear",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/basic-linear-function`
+            },
+            {
+                title: "Pengklasifikasi Biner",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/binary-classifier`
+            },
+            {
+                title: "Kerugian Entropi Silang Biner",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/binary-cross-entropy-loss`
+            },
+            {
+                title: "Optimasi",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/optimization`
+            },
+            {
+                title: "Pengklasifikasi Multi-Kelas",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/multi-class-classifier`
+            },
+            {
+                title: "Kerugian Entropi Silang",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/cross-entropy-loss`
+            },
+            {
+                title: "Persepsi Multi-Lapisan",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/multi-layer-perceptron`
+            },
+            {
+                title: "Turunan Parsial",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/partial-derivative`
+            },
+            {
+                title: "Contoh Penggunaan Turunan Parsial",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/partial-derivative-example`
+            },
+            {
+                title: "Learning dalam Bentuk Vektor",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/learning-vector`
+            },
+            {
+                title: "Fungsi Aktivasi untuk Lapisan Tersembunyi",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/hidden-layer-activation-function`
+            },
+            {
+                title: "Tantangan Optimasi",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/optimization-challenge`
+            },
+            {
+                title: "Varian Keturunan Gradien",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/gradient-descent-variant`
+            },
+            {
+                title: "Laju Pembelajaran Adaptif",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/adaptive-learning-rate`
+            },
+            {
+                title: "Rata-Rata Tertimbang Eksponensial",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/exponential-weighted-average`
+            },
+            {
+                title: "Momentum",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/momentum`
+            },
+            {
+                title: "Propagasi Akar Rata-Rata Kuadrat",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/root-mean-squared-propagation`
+            },
+            {
+                title: "Estimasi Momen Adaptif",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/adam`
+            },
+            {
+                title: "Overfitting dan Underfitting",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/overfitting-underfitting`
+            },
+            {
+                title: "Regularisasi",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/regularization`
+            },
+            {
+                title: "Penalti Parameter",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/parameter-penalties`
+            },
+            {
+                title: "Dropout",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/dropout`
+            },
+            {
+                title: "Pelatihan, Validasi, dan Pengujian",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/train-validate-test`
+            },
+            {
+                title: "Praproses dan Inisialisasi",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/preprocessing-initialization`
+            },
+            {
+                title: "Normalisasi Batch",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/batch-normalization`
+            },
+            {
+                title: "Pencarian Hyperparameter",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/hyperparameter-search`
+            },
+            {
+                title: "Konvolusi untuk Data Waktu",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/convolution-time-series`
+            },
+            {
+                title: "Pooling untuk Data Waktu",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/pooling-time-series`
+            },
+            {
+                title: "Convolutional Neural Networks untuk Data Waktu",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/cnn-time-series`
+            },
+            {
+                title: "Konvolusi untuk Gambar",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/convolution-image`
+            },
+            {
+                title: "Konvolusi pada Volume",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/convolution-volume`
+            },
+            {
+                title: "Blok Konvolusi",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/convolution-block`
+            },
+            {
+                title: "Convolutional Neural Network",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/neural-networks/cnn`
+            }
+        ]
+    },
+    {
+        title: "Machine Learning",
+        description: "Algoritma yang belajar dari pengalaman untuk memprediksi hasil masa depan secara otomatis.",
+        href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning`,
+        items: [
+            {
+                title: "Apa itu Machine Learning?",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning/what-machine-learning`
+            },
+            {
+                title: "Apa itu Supervised Learning?",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning/what-supervised-learning`
+            },
+            {
+                title: "Pengaturan Formal untuk Supervised Learning",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning/formal-supervised-learning`
+            },
+            {
+                title: "Minimalisasi Risiko Empiris",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning/empirical-risk-minimization`
+            },
+            {
+                title: "Minimalisasi Risiko yang Teratur",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning/regularized-risk-minimization`
+            },
+            {
+                title: "K-Nearest Neighbor Classifier",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning/k-nearest-neighbor-classifier`
+            },
+            {
+                title: "Aturan Maksimum Posteriori",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning/maximum-posteriori-rule`
+            },
+            {
+                title: "Aturan Keputusan Bayesian",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning/bayesian-decision-rule`
+            },
+            {
+                title: "Fungsi Diskriminatif",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning/discriminant-function`
+            },
+            {
+                title: "Bukti Pengklasifikasi Optimal Bayes",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning/bayes-optimal-classifier-proof`
+            },
+            {
+                title: "Distribusi Normal Univariat",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning/univariate-normal-distribution`
+            },
+            {
+                title: "Probabilitas vs Kemungkinan",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning/probability-vs-likelihood`
+            },
+            {
+                title: "Estimasi Kemungkinan Maksimum",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning/maximum-likelihood-estimation`
+            },
+            {
+                title: "Contoh Estimasi Kemungkinan Maksimum",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning/maximum-likelihood-estimation-example`
+            },
+            {
+                title: "Metode Kemungkinan Maksimum",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning/maximum-likelihood-method`
+            },
+            {
+                title: "Pemasangan Parameter untuk Distribusi Normal",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning/parameter-fitting-normal-distribution`
+            },
+            {
+                title: "Kovarians",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning/covariance`
+            },
+            {
+                title: "Eigendekomposisi dari Matriks Kovarians",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning/eigendecomposition-covariance-matrix`
+            },
+            {
+                title: "Model Gaussian",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning/gaussian-model`
+            },
+            {
+                title: "Fungsi Diskriminan untuk Model Gaussian",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning/discriminant-function-gaussian-model`
+            },
+            {
+                title: "Jarak Mahalanobis",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning/mahalanobis-distance`
+            },
+            {
+                title: "Estimasi Titik",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning/point-estimation`
+            },
+            {
+                title: "Penaksir yang Tidak Bias",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning/unbiased-estimator`
+            },
+            {
+                title: "Konsistensi",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning/consistency`
+            },
+            {
+                title: "Kesalahan Kuadrat Rata-Rata",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning/mean-squared-error`
+            },
+            {
+                title: "Dekomposisi Bias-Varians dari Kesalahan Kuadrat Rata-Rata",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning/bias-variance-decomposition-mse`
+            },
+            {
+                title: "Pemilihan Model untuk Estimasi Kemungkinan Maksimum",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning/model-selection-mle`
+            },
+            {
+                title: "Divergensi Kullback-Leibler",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning/kl-divergence`
+            },
+            {
+                title: "Kriteria Informasi Akaike",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning/akaike-information-criterion`
+            },
+            {
+                title: "Validasi Silang",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning/cross-validation`
+            },
+            {
+                title: "Model Campuran Gaussian",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning/gaussian-mixture-model`
+            },
+            {
+                title: "Algoritma Maksimisasi Ekspektasi",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/machine-learning/expectation-maximization-algorithm`
+            }
+        ]
+    },
+    {
+        title: "Optimisasi Nonlinear untuk AI",
+        description: "Matematika lanjutan yang menemukan solusi optimal dalam ruang masalah AI yang kompleks.",
+        href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nonlinear-optimization`,
+        items: [
+            {
+                title: "Masalah Optimisasi Nonlinear",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nonlinear-optimization/nonlinear-optimization-problem`
+            },
+            {
+                title: "Penerimaan dan Pengoptimalan",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nonlinear-optimization/acceptance-optimization`
+            },
+            {
+                title: "Konvergensi Proses Berulang",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nonlinear-optimization/convergence-repeated-process`
+            },
+            {
+                title: "Kondisi Optimalitas di Satu Dimensi",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nonlinear-optimization/one-dimensional-optimality-condition`
+            },
+            {
+                title: "Kondisi Optimalitas di Dua Dimensi",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nonlinear-optimization/two-dimensional-optimality-condition`
+            },
+            {
+                title: "Prosedur Degradasi",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nonlinear-optimization/degradation-procedure`
+            },
+            {
+                title: "Metode Gradien",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nonlinear-optimization/gradient-method`
+            },
+            {
+                title: "Perilaku Konvergensi",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nonlinear-optimization/convergence-behavior`
+            },
+            {
+                title: "Gradien Konjugasi",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nonlinear-optimization/conjugate-gradient`
+            },
+            {
+                title: "Metode Gradien vs Metode Gradien Konjugasi",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nonlinear-optimization/gradient-vs-conjugate-gradient`
+            },
+            {
+                title: "Metode Newton dan Metode Quasi-Newton",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nonlinear-optimization/newton-quasi-newton`
+            },
+            {
+                title: "Metode Pemrograman Kuadratik Berurutan",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nonlinear-optimization/sqp`
+            },
+            {
+                title: "Metode Quasi-Newton Pemrograman Kuadratik Berurutan",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nonlinear-optimization/quasi-newton-sqp`
+            },
+            {
+                title: "Masalah Penyetaraan Nonlinear",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nonlinear-optimization/nonlinear-equality-problem`
+            },
+            {
+                title: "Metode Gauss-Newton",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nonlinear-optimization/gauss-newton`
+            },
+            {
+                title: "Konvergensi Lokal Metode Gauss-Newton",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nonlinear-optimization/local-convergence-gauss-newton`
+            },
+            {
+                title: "Mengapa Pemrograman Kuadratik Berurutan Tidak Cocok untuk Regresi Nonlinier?",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nonlinear-optimization/why-sqp-nonlinear-regression`
+            },
+            {
+                title: "Masalah yang Belum Ditentukan dan Regularisasi",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nonlinear-optimization/underdetermined-problem-regularization`
+            }
+        ]
+    },
+    {
+        title: "Advanced Machine Learning",
+        description: "Teknik mutakhir yang mendorong batas kemampuan kecerdasan buatan.",
+        href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/advanced-machine-learning`,
+        items: [
+            {
+                title: "Konsistensi Universal",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/advanced-machine-learning/universal-consistency`
+            },
+            {
+                title: "Union Bound",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/advanced-machine-learning/union-bound`
+            },
+            {
+                title: "Ketidaksetaraan Jensen",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/advanced-machine-learning/jensen-inequality`
+            },
+            {
+                title: "Ketidaksetaraan Markov",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/advanced-machine-learning/markov-inequality`
+            },
+            {
+                title: "Ketidaksetaraan Chebyshev",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/advanced-machine-learning/chebyshev-inequality`
+            },
+            {
+                title: "Ketidaksetaraan Chernoff",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/advanced-machine-learning/chernoff-inequality`
+            },
+            {
+                title: "Ketidaksetaraan Hoeffding",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/advanced-machine-learning/hoeffding-inequality`
+            },
+            {
+                title: "Estimasi Titik",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/advanced-machine-learning/point-estimation`
+            },
+            {
+                title: "Minimalisasi Risiko Empiris",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/advanced-machine-learning/erm`
+            },
+            {
+                title: "Ketika Minimalisasi Risiko Empiris Gagal",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/advanced-machine-learning/when-erm-fails`
+            },
+            {
+                title: "Generalization Bound",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/advanced-machine-learning/generalization-bound`
+            },
+            {
+                title: "Estimasi Error Bound",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/advanced-machine-learning/estimation-error-bound`
+            },
+            {
+                title: "Fungsi Pertumbuhan",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/advanced-machine-learning/growth-function`
+            },
+            {
+                title: "Ketidaksetaraan Vapnik-Chervonenkis",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/advanced-machine-learning/vc-inequality`
+            },
+            {
+                title: "Dimensi Vapnik-Chervonenkis",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/advanced-machine-learning/vc-dimension`
+            },
+            {
+                title: "Sauer-Shelah Lemma",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/advanced-machine-learning/sauer-shelah-lemma`
+            },
+            {
+                title: "Vapnik-Chervonenkis Bound",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/advanced-machine-learning/vc-bound`
+            },
+            {
+                title: "Vapnik-Chervonenkis Generalization Bound",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/advanced-machine-learning/vc-generalization-bound`
+            },
+            {
+                title: "Symmetrization Lemma",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/advanced-machine-learning/symmetrization-lemma`
+            },
+            {
+                title: "Teorema Condorcet",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/advanced-machine-learning/condorcet-theorem`
+            },
+            {
+                title: "Hard dan Soft Voting",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/advanced-machine-learning/hard-soft-voting`
+            },
+            {
+                title: "Weak dan Strong Learner",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/advanced-machine-learning/weak-strong-learner`
+            },
+            {
+                title: "Algoritma Boosting",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/advanced-machine-learning/boosting-algorithm`
+            },
+            {
+                title: "Algoritma AdaBoost",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/advanced-machine-learning/adaboost-algorithm`
+            },
+            {
+                title: "Model Aditif",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/advanced-machine-learning/additive-model`
+            },
+            {
+                title: "Forward Stagewise Additive Modelling",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/advanced-machine-learning/fsam`
+            },
+            {
+                title: "Analisis Teoritis",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/advanced-machine-learning/theoretical-analysis`
+            }
+        ]
+    },
+    {
+        title: "Computer Vision",
+        description: "Mengajarkan mesin untuk melihat dan memahami dunia visual seperti manusia.",
+        href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/computer-vision`,
+        items: [
+            {
+                title: "Gambar Skala Abu-Abu",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/computer-vision/grayscale-image`
+            },
+            {
+                title: "Gambar Berwarna",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/computer-vision/color-image`
+            },
+            {
+                title: "Histogram Equalization",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/computer-vision/histogram-equalization`
+            },
+            {
+                title: "Edge Detection",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/computer-vision/edge-detection`
+            },
+            {
+                title: "Penghalusan",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/computer-vision/smoothing`
+            },
+            {
+                title: "Unsharp Masking",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/computer-vision/unsharp-masking`
+            },
+            {
+                title: "Hough Transform",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/computer-vision/hough-transform`
+            },
+            {
+                title: "Fourier Transform",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/computer-vision/fourier-transform`
+            },
+            {
+                title: "Otsu's Method",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/computer-vision/otsu-method`
+            },
+            {
+                title: "Region Growing",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/computer-vision/region-growing`
+            },
+            {
+                title: "Algoritma Watershed",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/computer-vision/watershed-algorithm`
+            },
+            {
+                title: "Matriks Co-Occurrence",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/computer-vision/co-occurrence-matrix`
+            },
+            {
+                title: "Gabor Filter",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/computer-vision/gabor-filter`
+            },
+            {
+                title: "Harris Corner Detection",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/computer-vision/harris-corner-detection`
+            },
+            {
+                title: "Histogram untuk Gradient",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/computer-vision/histogram-gradient`
+            },
+            {
+                title: "Scale-Invariant Feature Transform",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/computer-vision/sift`
+            },
+            {
+                title: "Speeded-Up Robust Features",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/computer-vision/surf`
+            },
+            {
+                title: "Lapisan Konvolusi",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/computer-vision/convolution-layer`
+            },
+            {
+                title: "Pooling",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/computer-vision/pooling`
+            },
+            {
+                title: "Dekonvolusi",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/computer-vision/deconvolution`
+            },
+            {
+                title: "Fungsi Kesalahan untuk Klasifikasi",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/computer-vision/loss-function-classification`
+            },
+            {
+                title: "Augmentasi",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/computer-vision/augmentation`
+            },
+            {
+                title: "Regularisasi",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/computer-vision/regularization`
+            },
+            {
+                title: "AlexNet",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/computer-vision/alexnet`
+            }
+        ]
+    },
+    {
+        title: "Natural Language Processing",
+        description: "Menjembatani bahasa manusia dan pemahaman mesin untuk komunikasi yang mulus.",
+        href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nlp`,
+        items: [
+            {
+                title: "Grammar Formal",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nlp/formal-grammar`
+            },
+            {
+                title: "Grammar Tidak Terbatas",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nlp/unrestricted-grammar`
+            },
+            {
+                title: "Grammar Context-Sensitive",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nlp/context-sensitive-grammar`
+            },
+            {
+                title: "Grammar Context-Free",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nlp/context-free-grammar`
+            },
+            {
+                title: "Grammar Regular dan Left/Right Linear",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nlp/regular-grammar-left-right`
+            },
+            {
+                title: "Finite State Automata",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nlp/finite-state-automata`
+            },
+            {
+                title: "Morfologi",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nlp/morphology`
+            },
+            {
+                title: "Finite State Transducer",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nlp/finite-state-transducer`
+            },
+            {
+                title: "Syntax",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nlp/syntax`
+            },
+            {
+                title: "Parsing",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nlp/parsing`
+            },
+            {
+                title: "Cocke-Kasami-Younger Algorithm",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nlp/cky-algorithm`
+            },
+            {
+                title: "Chomsky-Normal Form",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nlp/chomsky-normal-form`
+            },
+            {
+                title: "Arti Kalimat",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nlp/sentence-meaning`
+            },
+            {
+                title: "Algoritma Levenshtein-Distance",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nlp/levenshtein-distance`
+            },
+            {
+                title: "Model N-Gram",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nlp/n-gram-model`
+            },
+            {
+                title: "Evaluasi Languange Model",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nlp/language-model-evaluation`
+            },
+            {
+                title: "Perplexity Language Model",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nlp/perplexity-language-model`
+            },
+            {
+                title: "Analisis Sentimen",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nlp/sentiment-analysis`
+            },
+            {
+                title: "Bag of Words",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nlp/bag-of-words`
+            },
+            {
+                title: "Evaluasi Pengklasifikasi",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nlp/classifier-evaluation`
+            },
+            {
+                title: "Neural Network sebagai Grafik Perhitungan",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nlp/neural-network-graph`
+            },
+            {
+                title: "Sequence Learning Problem",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nlp/sequence-learning-problem`
+            },
+            {
+                title: "Recurrent Neural Network",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nlp/recurrent-neural-network`
+            },
+            {
+                title: "Long Short-Term Memory",
+                href: `${__TURBOPACK__imported__module__$5b$project$5d2f$packages$2f$contents$2f$subject$2f$university$2f$bachelor$2f$ai$2d$ds$2f$_data$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BASE_PATH"]}/nlp/long-short-term-memory`
+            }
+        ]
+    }
+];
+const __TURBOPACK__default__export__ = idMaterials;
+}),
+];
+
+//# sourceMappingURL=packages_contents_subject_university_bachelor_ai-ds__data_e14b6392._.js.map

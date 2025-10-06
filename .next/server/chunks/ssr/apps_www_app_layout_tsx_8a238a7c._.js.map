@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///D:/github/nakafa.com-main/apps/www/app/layout.tsx"],"sourcesContent":["// Since we have a root `not-found.tsx` page, a layout file\n\nimport type { ReactNode } from \"react\";\n\n// is required, even if it's just passing children through.\nexport default function RootLayout({ children }: { children: ReactNode }) {\n  return children;\n}\n"],"names":[],"mappings":"AAAA,2DAA2D;;;;;AAK5C,SAAS,WAAW,EAAE,QAAQ,EAA2B;IACtE,OAAO;AACT","debugId":null}}]
+}
