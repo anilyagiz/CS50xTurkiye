@@ -60,7 +60,7 @@ export async function generateMetadata({
     url: path,
     images: [image],
     type: "article",
-    siteName: "Nakafa",
+    siteName: "CS50xTurkiye",
     locale,
   };
 
@@ -125,10 +125,10 @@ export default async function Page({ params }: Props) {
         <BreadcrumbJsonLd
           breadcrumbItems={headings.map((heading, index) => ({
             "@type": "ListItem",
-            "@id": `https://nakafa.com/${locale}${FilePath}${heading.href}`,
+            "@id": `https://cs50xturkiye.com/${locale}${FilePath}${heading.href}`,
             position: index + 1,
             name: heading.label,
-            item: `https://nakafa.com/${locale}${FilePath}${heading.href}`,
+            item: `https://cs50xturkiye.com/${locale}${FilePath}${heading.href}`,
           }))}
           description={metadata.description ?? ""}
           locale={locale}
@@ -138,7 +138,7 @@ export default async function Page({ params }: Props) {
           author={metadata.authors.map((author) => ({
             "@type": "Person",
             name: author.name,
-            url: `https://nakafa.com/${locale}/contributor`,
+            url: `https://cs50xturkiye.com/${locale}/contributor`,
           }))}
           datePublished={formatISO(metadata.date)}
           description={metadata.description ?? ""}
@@ -149,7 +149,7 @@ export default async function Page({ params }: Props) {
           author={metadata.authors.map((author) => ({
             "@type": "Person",
             name: author.name,
-            url: `https://nakafa.com/${locale}/contributor`,
+            url: `https://cs50xturkiye.com/${locale}/contributor`,
           }))}
           datePublished={formatISO(metadata.date)}
           description={metadata.description ?? ""}
