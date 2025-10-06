@@ -1,7 +1,14 @@
 {
   "permissions": {
     "allow": [
-      "Read(//d/github/**)"
+      "Read(//d/github/**)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(bun run:*)",
+      "Bash(npm run build:*)",
+      "Bash(git rm:*)",
+      "Bash(git filter-branch:*)"
     ],
     "deny": [],
     "ask": []
